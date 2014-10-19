@@ -59,6 +59,7 @@ gem 'modernizr-rails'
 gem 'jquery-fileupload-rails'
 gem 'momentjs-rails'
 gem 'ruby-progressbar'
+gem 'knapsack'
 
 group :development, :test do
   gem 'minitest'

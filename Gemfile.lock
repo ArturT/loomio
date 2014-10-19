@@ -247,6 +247,7 @@ GEM
     kaminari (0.16.1)
       actionpack (>= 3.0.0)
       activesupport (>= 3.0.0)
+    knapsack (0.5.0)
     launchy (2.4.2)
       addressable (~> 2.3)
     librato-metrics (1.4.0)
@@ -547,6 +548,7 @@ DEPENDENCIES
   jquery-rails (~> 3.1.1)
   jquery-ui-rails (~> 5.0.0)
   kaminari
+  knapsack
   launchy
   librato-rails
   memcachier
