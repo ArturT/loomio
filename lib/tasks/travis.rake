@@ -1,7 +1,7 @@
 task :travis do
-  ["rspec spec", "cucumber"].each do |cmd|
+  ["rspec", "cucumber"].each do |cmd|
     puts "Starting to run #{cmd}..."
-    system("export DISPLAY=:99.0 && bundle exec #{cmd}")
+    system("export DISPLAY=:99.0 && bundle exec rake knapsack:#{cmd}")
     raise "#{cmd} failed!" unless $?.exitstatus == 0
   end
 end
