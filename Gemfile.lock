@@ -1,11 +1,4 @@
 GIT
-  remote: git://github.com/ArturT/knapsack.git
-  revision: e2471786e4bd502f5eb439622e9cc370089ba90e
-  branch: cucumber-adapter
-  specs:
-    knapsack (0.5.0)
-
-GIT
   remote: git://github.com/activeadmin/activeadmin.git
   revision: 35084ca71a48e48e4aaa16366b7d1c73039bfed4
   specs:
@@ -254,6 +247,7 @@ GEM
     kaminari (0.16.1)
       actionpack (>= 3.0.0)
       activesupport (>= 3.0.0)
+    knapsack (1.0.0)
     launchy (2.4.2)
       addressable (~> 2.3)
     librato-metrics (1.4.0)
@@ -554,7 +548,7 @@ DEPENDENCIES
   jquery-rails (~> 3.1.1)
   jquery-ui-rails (~> 5.0.0)
   kaminari
-  knapsack!
+  knapsack
   launchy
   librato-rails
   memcachier
