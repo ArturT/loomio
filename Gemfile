@@ -59,7 +59,7 @@ gem 'modernizr-rails'
 gem 'jquery-fileupload-rails'
 gem 'momentjs-rails'
 gem 'ruby-progressbar'
-gem 'knapsack'
+gem 'knapsack', github: 'ArturT/knapsack', branch: 'cucumber-adapter'
 
 group :development, :test do
   gem 'minitest'
