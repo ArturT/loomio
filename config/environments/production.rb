@@ -29,7 +29,11 @@ Loomio::Application.configure do
   # config.assets.manifest = YOUR_PATH
 
   # Force all access to the app over SSL, use Strict-Transport-Security, and use secure cookies.
-  config.force_ssl = true
+  if ENV['FORCE_SSL']
+    config.force_ssl = true
+  else
+    config.force_ssl = false
+  end
 
   # See everything in the log (default is :info)
   # config.log_level = :debug
@@ -49,9 +53,6 @@ Loomio::Application.configure do
 
   # Disable delivery errors, bad email addresses will be ignored
   # config.action_mailer.raise_delivery_errors = false
-
-  # Enable threaded mode
-  config.threadsafe!
 
   # Send deprecation notices to registered listeners
   config.active_support.deprecation = :notify

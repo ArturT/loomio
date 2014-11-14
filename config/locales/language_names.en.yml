@@ -11,6 +11,7 @@ en:
   eo: Esperanto
   el: Greek
   fr: French
+  he: Hebrew
   id: Indonesian
   it: Italian
   hu: Hungarian
@@ -22,12 +23,14 @@ en:
   ro: Romanian
   sr: Serbian (latin)
   "sr-RS": Serbian (cyrillic)
+  sk: Slovak
   sv: Swedish
   vi: Vietnamese
   tr: Turkish
   uk: Ukranian
 
 # test languages
+  an: Aragonese
   ar: Arabic
   cmn: Chinese (Mandarin)
   hr: Croatian

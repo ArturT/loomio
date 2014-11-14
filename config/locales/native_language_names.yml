@@ -1,5 +1,6 @@
 en:
   native_language_name:
+    an: aragonés
     'be-BY': беларуская мова
     'bg-BG': български
     ca: Català
@@ -12,6 +13,7 @@ en:
     eo: Esperanto
     es: Español
     fr: Français
+    he: עברית
     id: Indonesian
     it: Italiano
     hu: Magyar
@@ -21,6 +23,7 @@ en:
     'nl-NL': Nederlands
     'pt-BR': Português (Brasil)
     ro: Română
+    sK: slovenčina
     sr: Srpski - Latinica
     'sr-RS': Srpski - Ćirilica
     sv: Svenska
@@ -51,3 +54,5 @@ en:
     ru: русский язык
     sl: slovenski jezik
     te: తెలుగు
+    ur: اُردُو
+    'ur-PK': اُردُو (Pakistan)

@@ -1,5 +1,4 @@
 class MotionsController < GroupBaseController
-  inherit_resources
   before_filter :load_resource_by_key, except: [:create, :index]
   authorize_resource except: [:create, :index, :show, :update_outcome, :create_outcome]
   before_filter :authenticate_user!, except: [:show, :index]
@@ -65,7 +64,6 @@ class MotionsController < GroupBaseController
   end
 
   def destroy
-    resource
     @motion.destroy
     redirect_to group_url(@motion.group)
     flash[:success] = t("success.proposal_deleted")
